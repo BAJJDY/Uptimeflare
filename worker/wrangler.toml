@@ -7,3 +7,7 @@ compatibility_flags = [ "nodejs_compat" ]
 binding = "UPTIMEFLARE_D1"
 database_name = "uptimeflare_d1"
 database_id = "80b06950-8e99-451c-93ac-ae29b333f7b7"
+
+[[triggers.cron]]
+schedule = "*/5 * * * *"
+command = "scheduled"
