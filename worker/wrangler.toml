@@ -1,0 +1,9 @@
+name = "uptimeflare_worker"
+main = "src/index.ts"
+compatibility_date = "2025-04-02"
+compatibility_flags = [ "nodejs_compat" ]
+
+[[d1_databases]]
+binding = "UPTIMEFLARE_D1"
+database_name = "uptimeflare_d1"
+database_id = "1ad0dbba-27e5-4f37-bfa1-6d2d6586bd5d"
